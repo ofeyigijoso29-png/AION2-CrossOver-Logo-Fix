@@ -1,0 +1,31 @@
+name: Startup problem / Проблема запуска
+description: Report a supported-version failure without private game logs.
+body:
+  - type: markdown
+    attributes:
+      value: "Telegram support: [@bingobangobong](https://t.me/bingobangobong). Не вставляйте полный лог или командную строку игры: там могут быть токены."
+  - type: input
+    id: mac
+    attributes:
+      label: Mac model and macOS / Модель Mac и macOS
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: CrossOver and NotProton versions / Версии
+    validations:
+      required: true
+  - type: textarea
+    id: stage
+    attributes:
+      label: What happens / Что происходит
+      description: "Logo, title screen, login, lobby, or world? / Логотип, экран приветствия, вход, лобби или мир?"
+    validations:
+      required: true
+  - type: textarea
+    id: status
+    attributes:
+      label: status.command output / Результат status.command
+      description: "Only status output and lines starting with aion2-rosetta-guard. Never full game logs or login arguments."
+      render: text

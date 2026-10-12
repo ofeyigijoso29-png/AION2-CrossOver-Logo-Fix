@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+build/
+dist/
+runtime/
+compatdata/
+launcher/
+state.json
+*.log
+*.dylib
+*.exe
+*.zip
+.DS_Store
+bin/
