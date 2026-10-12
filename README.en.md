@@ -1,4 +1,4 @@
-# AION2 Rosetta Guard
+# AION 2 CrossOver Fix — Startup Logo Freeze on Mac
 
 **An unofficial, experimental workaround for an AION2 startup-logo hang with Rosetta, CrossOver and NotProton.** [Русская инструкция](README.md)
 
@@ -22,14 +22,14 @@ Startup was tested under Rosetta on Apple Silicon. Compatibility with every Mac 
 
 1. Set up CrossOver and [NotProton 1.1.3](https://github.com/NotProtonNot/NotProton/releases/tag/v1.1.3), including its components and prepared CrossOver runner.
 2. Select NotProton for AION2 in **Steam for Mac**. Launch once to create the compatibility prefix, then **fully close AION2**. Successful game login is not required at this point.
-3. Download **AION2-Rosetta-Guard-v0.1.0-macos.zip** from [the release](https://github.com/ofeyigijoso29-png/aion2-crossover-rosetta-guard/releases/tag/v0.1.0). It includes the tested loader, installer, source and LGPL license. Verify `python3 --version` (3.9+).
+3. Download **AION2-CrossOver-Logo-Fix-v0.1.0-macos.zip** from [the release](https://github.com/ofeyigijoso29-png/AION2-CrossOver-Logo-Fix/releases/tag/v0.1.0). It includes the tested loader, installer, source and LGPL license. Verify `python3 --version` (3.9+).
 4. Extract and run `install.command`, or run `python3 installer.py install` from Terminal in the extracted directory.
 
 For a source build instead, install Apple Command Line Tools with `xcode-select --install`, then:
 
 ```bash
-git clone https://github.com/ofeyigijoso29-png/aion2-crossover-rosetta-guard.git
-cd aion2-crossover-rosetta-guard
+git clone https://github.com/ofeyigijoso29-png/AION2-CrossOver-Logo-Fix.git
+cd AION2-CrossOver-Logo-Fix
 ./install.command
 ```
 
@@ -75,7 +75,7 @@ Published-source compilation, CPUID/INT3 controls, targeted-allocation behavior 
 
 ## Support and privacy
 
-Contact **[@bingobangobong](https://t.me/bingobangobong)** or [open an issue](https://github.com/ofeyigijoso29-png/aion2-crossover-rosetta-guard/issues). Include Mac model, macOS, CrossOver/NotProton versions, failure stage and `status.command` output. Share only lines starting with `aion2-rosetta-guard:`; full game logs or launch commands may contain login tokens. No error in a log is not proof of a successful login.
+Contact **[@bingobangobong](https://t.me/bingobangobong)** or [open an issue](https://github.com/ofeyigijoso29-png/AION2-CrossOver-Logo-Fix/issues). Include Mac model, macOS, CrossOver/NotProton versions, failure stage and `status.command` output. Share only lines starting with `aion2-rosetta-guard:`; full game logs or launch commands may contain login tokens. No error in a log is not proof of a successful login.
 
 ## License and credits
 

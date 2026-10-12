@@ -19,7 +19,7 @@ def main():
     files = subprocess.run(["git", "ls-files", "-z"], cwd=package,
                            capture_output=True, check=True).stdout.decode().split("\0")
     args.output_dir.mkdir(parents=True, exist_ok=True)
-    name = f"AION2-Rosetta-Guard-v{installer.VERSION}-macos"
+    name = f"AION2-CrossOver-Logo-Fix-v{installer.VERSION}-macos"
     archive = args.output_dir / (name + ".zip")
     with zipfile.ZipFile(archive, "w", compression=zipfile.ZIP_DEFLATED) as bundle:
         for relative in filter(None, files):

@@ -1,4 +1,4 @@
-# AION2 Rosetta Guard
+# Патч AION 2 CrossOver — исправление зависания на логотипе при запуске
 
 ![Experimental](https://img.shields.io/badge/status-experimental-orange)
 ![CrossOver](https://img.shields.io/badge/CrossOver-26.3-blue)
@@ -9,7 +9,7 @@
 
 На проверенной конфигурации игра прошла заставку, авторизацию и вход в лобби. Игрок подтвердил, что запуск работает. Это экспериментальный обход конкретного сбоя запуска; стабильность долгой игровой сессии и прирост FPS не проверялись.
 
-[English instructions](README.en.md) · [Релизы](https://github.com/ofeyigijoso29-png/aion2-crossover-rosetta-guard/releases) · [Сообщить о проблеме](https://github.com/ofeyigijoso29-png/aion2-crossover-rosetta-guard/issues)
+[English instructions](README.en.md) · [Релизы](https://github.com/ofeyigijoso29-png/AION2-CrossOver-Logo-Fix/releases) · [Сообщить о проблеме](https://github.com/ofeyigijoso29-png/AION2-CrossOver-Logo-Fix/issues)
 
 > Нужна помощь с применением? Telegram: **[@bingobangobong](https://t.me/bingobangobong)** — подскажу и помогу с настройкой.
 
@@ -31,14 +31,14 @@
 
 1. Установите CrossOver и [NotProton 1.1.3](https://github.com/NotProtonNot/NotProton/releases/tag/v1.1.3). В NotProton завершите установку компонентов и подготовку CrossOver.
 2. В **Steam для Mac** выберите NotProton для AION2. Один раз запустите игру, чтобы создать её профиль, затем **полностью закройте AION2**. Успешный вход в игру на этом этапе не требуется.
-3. Со страницы [релиза](https://github.com/ofeyigijoso29-png/aion2-crossover-rosetta-guard/releases/tag/v0.1.0) скачайте **AION2-Rosetta-Guard-v0.1.0-macos.zip** — готовый комплект с загрузчиком и установщиком. Проверьте `python3 --version`: требуется Python 3.9 или новее.
+3. Со страницы [релиза](https://github.com/ofeyigijoso29-png/AION2-CrossOver-Logo-Fix/releases/tag/v0.1.0) скачайте **AION2-CrossOver-Logo-Fix-v0.1.0-macos.zip** — готовый комплект с загрузчиком и установщиком. Проверьте `python3 --version`: требуется Python 3.9 или новее.
 4. Распакуйте ZIP и запустите `install.command`. Через Терминал в распакованной папке можно выполнить `python3 installer.py install`.
 
 Для сборки из исходников вместо готового ZIP нужны Apple Command Line Tools (`xcode-select --install`), затем:
 
 ```bash
-git clone https://github.com/ofeyigijoso29-png/aion2-crossover-rosetta-guard.git
-cd aion2-crossover-rosetta-guard
+git clone https://github.com/ofeyigijoso29-png/AION2-CrossOver-Logo-Fix.git
+cd AION2-CrossOver-Logo-Fix
 ./install.command
 ```
 
@@ -123,7 +123,7 @@ python3 installer.py install \
 
 ## Если нужна помощь
 
-Пишите **[@bingobangobong в Telegram](https://t.me/bingobangobong)** или создайте [issue](https://github.com/ofeyigijoso29-png/aion2-crossover-rosetta-guard/issues). Укажите модель Mac, macOS, версии CrossOver/NotProton, этап зависания и результат `status.command`.
+Пишите **[@bingobangobong в Telegram](https://t.me/bingobangobong)** или создайте [issue](https://github.com/ofeyigijoso29-png/AION2-CrossOver-Logo-Fix/issues). Укажите модель Mac, macOS, версии CrossOver/NotProton, этап зависания и результат `status.command`.
 
 Не публикуйте полный игровой лог или командную строку запуска: в них могут быть токены входа. Для этого проекта достаточно строк, начинающихся с `aion2-rosetta-guard:`. Отсутствие ошибки в логе само по себе не означает успешный вход.
 
